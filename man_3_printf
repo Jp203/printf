@@ -1,0 +1,51 @@
+.\" Manpage for _printf.
+.\" Contact Jp203@icloud.com with any questions or concerns.
+.TH man 8 "28 July 2019" "1.0" "_printf man page"
+.SH NAME
+_printf \- prints to STDOUT with several formats.
+.SH SYNOPSIS
+_printf [INPUT STREAM]
+.SH DESCRIPTION
+_printf is a function to print to STDOUT with several formats.
+.SH OPTIONS
+The _printf function takes the following options to format the output:
+.TP
+.B -%c
+Prints character into the INPUT STREAM.
+.TP
+.B -%s
+Prints string into the INPUT STREAM.
+.TP
+.B -%i
+Prints integer into the INPUT STREAM.
+.TP
+.B -%d
+Prints double into the INPUT STREAM.
+.TP
+.B -%u
+Prints unsigned int into the INPUT STREAM.
+.TP
+.B -%o
+Prints octal into the INPUT STREAM.
+.TP
+.B -%x
+Prints lower-hexal into the INPUT STREAM.
+.TP
+.B -%X
+Prints hexal into the INPUT STREAM.
+.TP
+.B -%b
+Prints binary into the INPUT STREAM.
+.TP
+.B -%R
+Prints rot13 into the INPUT STREAM.
+.TP
+.B -%r
+Prints the reverse of a string into the INPUT STREAM.
+.SH SEE ALSO
+.SH SEE ALSO
+useradd(8), passwd(5), _printf.debian(8) 
+.SH BUGS
+TBD
+.SH AUTHOR
+Jonathan Patterson (Jp203@icloud.com)
